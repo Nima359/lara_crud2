@@ -1,0 +1,21 @@
+#footer {
+  background-color: #c9c9c9;
+  font-size: 19px;
+  border: 1px solid #f5f531;
+  color: #b206e3;
+  text-align: center;
+  line-height: 4;
+}
+
+button, input[type=submit] {
+  color: #ff6b77;
+  padding: 10px;
+  font-size: 19px;
+  background-color: #c9c9c9;
+}
+
+h3 {
+  color: #30abe8;
+}
+
+/*# sourceMappingURL=app.css.map */

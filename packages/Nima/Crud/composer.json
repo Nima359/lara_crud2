@@ -1,0 +1,50 @@
+{
+  "name" : "nima/crud" ,
+  "description" : "New Package CRUD" ,
+  "license" : "MIT" ,
+  "keywords" : [
+    "Laravel" ,
+    "Crud" ,
+    "Nima"
+  ] ,
+  "autoload" : {
+    "psr-4" : {
+      "Nima\\Crud\\" : "src/" ,
+      "Nima\\Crud\\App\\" : "src/app/" ,
+      "Nima\\Crud\\Facades\\" : "src/facades/" ,
+      "Nima\\Crud\\App\\Facades\\" : "src/app/Facades/" ,
+      "Nima\\Crud\\App\\Providers\\" : "src/app/Providers/" ,
+      "Nima\\Crud\\App\\View\\Components\\" : "src/app/View/Components/" ,
+      "Nima\\Crud\\App\\Models\\" : "src/app/Models/" ,
+      "Nima\\Crud\\App\\Models\\Back\\" : "src/app/Models/Back/" ,
+      "Nima\\Crud\\App\\Http\\" : "src/app/Http/" ,
+      "Nima\\Crud\\App\\Http\\Middleware\\" : "src/app/Http/Middleware/" ,
+      "Nima\\Crud\\App\\Http\\Controllers\\" : "src/app/Http/Controllers/" ,
+      "Nima\\Crud\\App\\Http\\Controllers\\Back\\" : "src/app/Http/Controllers/Back/" ,
+      "Nima\\Crud\\Classes\\" : "src/classes/" ,
+      "Nima\\Crud\\Database\\" : "src/database/" ,
+      "Nima\\Crud\\Database\\Seeders\\" : "src/database/seeders/" ,
+      "Nima\\Crud\\Database\\Factories\\" : "src/database/factories/"
+    }
+  } ,
+  "authors" : [
+    {
+      "name" : "Nima R" ,
+      "email" : "nima@gmail.com"
+    }
+  ] ,
+  "minimum-stability" : "dev" ,
+  "require" : {
+    "php" : ">=7.3.1" ,
+    "illuminate/database" : "^5.0" ,
+    "illuminate/support" : "~5.0"
+  } ,
+  "extra" : {
+    "laravel" : {
+      "providers" : [
+        "Nima\\Crud\\CrudServiceProvider" ,
+        "Nima\\Crud\\DirectiveServiceProvider"
+      ]
+    }
+  }
+}
