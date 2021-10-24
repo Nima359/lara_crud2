@@ -17,12 +17,8 @@ class PostController extends Controller {
   public function index () {
     $posts = Post::all ();
     
-//    $f=User::find(1);
-//    dd($f);
-    $u=User::find(1)->with('posts')->first();
-    dd($u);
     
-//    return view ("Crud::app.posts.showPosts" , ['posts' => $posts]);
+    return view ("Crud::app.posts.showPosts" , ['posts' => $posts]);
 //    return view ("Crud::app.showPosts")->withPosts ($posts);
   }
   
